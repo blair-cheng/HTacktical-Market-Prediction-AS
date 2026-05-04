@@ -1,0 +1,8 @@
+data/raw/
+data/processed/market_state.csv
+data/processed/fragments.csv
+data/processed/embeddings.npy
+data/processed/scaler.pkl
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,5 @@
+cpi_ratio
+vix_delta
+yield_3m_ratio
+lagged_market_forward_excess_returns_delta
+spy_price_ratio

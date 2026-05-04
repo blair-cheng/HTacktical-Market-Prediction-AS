@@ -49,6 +49,12 @@ Decision / scenario output
 ## Repository Map
 
 ```text
+real_data_portfolio/
+  src/                         real-data feature, fragment, retrieval, and evaluation code
+  scripts/                     data download, fragment generation, walk-forward, scoring
+  docs/                        data-source plan, processing notes, AI workflow
+  data/processed/              lightweight public result summaries
+
 sql/
   01_raw_ingest/              raw market data loading
   02_feature_engineering/     fused historical state construction
@@ -78,10 +84,12 @@ That debugging process became the next iteration:
 separate competition-artifact performance from real out-of-sample robustness,
 verify data-source coverage, avoid leakage, and evaluate on rolling recent windows instead of relying on a single full-period score.
 
+The real-data rebuild code is in `real_data_portfolio/`.
+
 ## Status
 
 This repo is a public work-sample snapshot.
-The BigQuery SQL prototype is preserved here; the real-data portfolio rebuild is under active iteration separately.
+The BigQuery SQL prototype is preserved here; the real-data portfolio rebuild is included as a compact research pipeline under `real_data_portfolio/`.
 
 ## Disclaimer
 
