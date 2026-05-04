@@ -53,15 +53,8 @@ Evaluate rolling / recent windows
 
 ## Current Public Outputs
 
-Lightweight summary outputs are included under `data/processed/`:
-
-- `p0_walk_forward_summary.csv`
-- `p0_score_calculator_results.csv`
-- `p0_score_recent_windows.csv`
-- `p0_score_by_min_history.csv`
-- `feature_columns.txt`
-
-Raw market data and generated binary artifacts are intentionally not committed.
+Raw market data, generated fragments, embeddings, and CSV outputs are intentionally not committed.
+The public repo keeps the reproducible code path and the project explanation clean.
 
 ## Current Finding
 

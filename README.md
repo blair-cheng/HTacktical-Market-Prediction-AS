@@ -52,8 +52,7 @@ Decision / scenario output
 real_data_portfolio/
   src/                         real-data feature, fragment, retrieval, and evaluation code
   scripts/                     data download, fragment generation, walk-forward, scoring
-  docs/                        data-source plan, processing notes, AI workflow
-  data/processed/              lightweight public result summaries
+  docs/                        AI workflow notes
 
 sql/
   01_raw_ingest/              raw market data loading
